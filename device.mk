@@ -133,7 +133,14 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
        wifi.interface=eth0 \
        wifi.supplicant_scan_interval=15 \
-       dalvik.vm.heapsize=32m
+       dalvik.vm.heapsize=32m \
+       ro.ril.hsxpa=2 \
+       ro.ril.gprsclass=12
+
+# Default network type.
+# 0 => WCDMA preferred.
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.default_network=1
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
