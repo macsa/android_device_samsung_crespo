@@ -132,7 +132,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # be reachable from resources or other mechanisms.
 PRODUCT_PROPERTY_OVERRIDES += \
        wifi.interface=eth0 \
-       wifi.supplicant_scan_interval=15 \
+       wifi.supplicant_scan_interval=150 \
        dalvik.vm.heapsize=32m \
        ro.ril.hsxpa=2 \
        ro.ril.gprsclass=12
