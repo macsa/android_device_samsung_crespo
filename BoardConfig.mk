@@ -85,3 +85,4 @@ WIFI_DRIVER_MODULE_ARG      :=  "firmware_path=/vendor/firmware/fw_bcm4329.bin n
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 BUILDING_ON_32BIT := true
+TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/crespo/recovery_kernel
